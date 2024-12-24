@@ -8,14 +8,14 @@
     <!-- Adding the CSS file here for further configuration -->
     <link rel="stylesheet" href="styles.css">
 
-    <!-- tailwind CSS link here -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind CSS link here to be used only when you haven't used the production build -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 </head>
 <body>
 
     <!-- Creating the main navbar here for navigations -->
     <nav class = "m-2 px-5 py-2 flex flex-wrap justify-between align-middle">
-        <img src = "https://w7.pngwing.com/pngs/912/661/png-transparent-computer-icons-location-location-icon-map-location-icon-miscellaneous-desktop-wallpaper-map-thumbnail.png" alt = "Image Icon" class = "w-5">
+        <img src = "https://w7.pngwing.com/pngs/912/661/png-transparent-computer-icons-location-location-icon-map-location-icon-miscellaneous-desktop-wallpaper-map-thumbnail.png" alt = "Image Icon" class = "w-5 rounded-md">
         <ul class = "flex flex-wrap gap-10 max-w-full align-middle justify-around font-semibold">
             <li> <a href = "#"> Intro </a> </li>
             <li> <a href = "#"> Products </a> </li>
@@ -42,11 +42,12 @@
         </div>
     </div>
 
-    <div class="fontsOne m-2 p-3">
+    <!-- Using Border and related data here -->
+    <div class="fontsOne m-5 p-3 border-2 border-cyan-300 rounded-b-md space-y-4">
 
         <!-- Font Sizing and related classes here -->
         <h1 class = "text-4xl font-extrabold text-center"> Font Type One - 4xl Size - Center </h1>
-        <h1 class = "text-2xl font-medium py-3 text-right"> Font Type One - 2xl Size Right Side </h1>
+        <h1 class = "text-2xl font-medium text-center"> Font Type One - 2xl Size </h1>
 
     </div>
 
