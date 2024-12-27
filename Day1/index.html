@@ -16,7 +16,7 @@
     <!-- Creating the main navbar here for navigations -->
     <nav class = "m-2 px-5 py-2 flex flex-wrap justify-between align-middle">
         <img src = "https://w7.pngwing.com/pngs/912/661/png-transparent-computer-icons-location-location-icon-map-location-icon-miscellaneous-desktop-wallpaper-map-thumbnail.png" alt = "Image Icon" class = "w-5 rounded-md">
-        <ul class = "flex flex-wrap gap-10 max-w-full align-middle justify-around font-semibold">
+        <ul class = "flex flex-wrap gap-10 max-w-full align-middle justify-around font-semibold max-sm-[300px]:text-red-600">
             <li> <a href = "#"> Intro </a> </li>
             <li> <a href = "#"> Products </a> </li>
             <li> <a href = "#"> Pricings </a> </li>
@@ -25,12 +25,12 @@
     </nav>
 
     <!-- The main content div is here -->
-    <div class="main px-4 py-5 mx-4 flex justify-evenly rounded-md flex-wrap shadow-lg shadow-cyan-500/50 items-center">
+    <div class="main px-4 py-5 mx-4 flex justify-evenly rounded-md flex-wrap shadow-lg shadow-cyan-500/50 items-center max-sm:gap-5">
         
         <!-- Textual Content here -->
-        <div class = "content1 flex flex-col gap-5">
-            <h1 class = "text-3xl font-semibold"> The Pluggines of Trend </h1>
-            <p class = "text-base text-slate-900 cursor-text w-80">
+        <div class = "content1 flex flex-col gap-5                       max-sm:gap-3">
+            <h1 class = "text-3xl font-semibold max-sm:text-center max-sm:text-2xl"> The Pluggines of Trend </h1>
+            <p class = "text-base text-slate-900 cursor-text w-80 max-sm:text-center max-sm:text-sm">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi soluta saepe assumenda, vitae, ipsum autem itaque dolores dolorum iste doloribus numquam fuga mollitia non! Animi iste laudantium repellendus aut neque.
             </p>
             <button class = "border-2 rounded-md w-40 text-white bg-cyan-400 font-semibold shadow-md shadow-slate-600 border-cyan-400 cursor-pointer hover:text-slate-800 hover:bg-slate-400 hover:border-slate-700 transition ease-in delay-100 hover:shadow-none"> Checkout Now </button>
@@ -38,19 +38,20 @@
 
         <!-- Visual Content here -->
         <div>
-            <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ-Py66Br89x1_AQfcI0hAur5oEsAVwO0q4Q&s" alt="Product Image1" class = "rounded-xl drop-shadow-lg cursor-pointer">
+            <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ-Py66Br89x1_AQfcI0hAur5oEsAVwO0q4Q&s" alt="Product Image1" class = "rounded-lg max-sm:rounded-lg max-sm:w-25 drop-shadow-lg cursor-pointer ">
         </div>
     </div>
 
     <!-- Using Border and related data here -->
     <div class="fontsOne m-5 p-3 border-2 border-cyan-300 rounded-b-md space-y-4">
 
+        <!-- Applying the CSS as per the responsiveness of the devices -->
         <!-- Font Sizing and related classes here -->
-        <h1 class = "text-4xl font-extrabold text-center"> Font Type One - 4xl Size - Center </h1>
-        <h1 class = "text-2xl font-medium text-center"> Font Type One - 2xl Size </h1>
+        <h1 class = "text-4xl font-extrabold text-center max-sm:text-2xl"> Font Type One - 4xl Size - Center </h1>
+        <h1 class = "text-2xl font-medium text-center max-sm:text-xl"> Font Type One - 2xl Size </h1>
 
         <!-- Using Square bracket notations here for changing values are per our specific one -->
-        <h2 class = "text-xl font-bold text-center text-[#292826] transition-[1.4s]"> General Heading 2 </h2>
+        <h2 class = "text-xl font-bold text-center text-[#292826] transition-[1.4s] max-sm-[300px]:text-sm"> General Heading 2 </h2>
 
     </div>
 
