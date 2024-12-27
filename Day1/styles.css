@@ -1,6 +1,14 @@
 /* Adding further tailwind configuration here */
 @tailwind base;
 @tailwind components;
+
+/* Using apply directive here for replacing a single class with user generated one
+   for overriding the utility classes of the Tailwind CSS */
+
+.btn1{
+    @apply border-2 rounded-md w-40 text-white bg-cyan-400 font-semibold shadow-md shadow-slate-600 border-cyan-400 cursor-pointer hover:text-white active:text-slate-900 hover:bg-cyan-700 hover:border-transparent transition-[0.5s] hover:shadow-none
+}
+
 @tailwind utilities;
 
-/* Further CSS if someone wants to add here */
+/* Further CSS if someone wants to add here after the Utility classes here */
